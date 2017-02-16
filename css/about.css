@@ -1,0 +1,65 @@
+/*HERO*/
+
+#hero2 {
+    height: 350px;
+    width: 100%;
+    background-image: url("../img/hallway.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#hero2>h1 {
+    padding: 156px 408px;
+    margin: 0;
+    background-color: rgba(255,255,255, .3);
+    text-shadow: 2px 2px #fff;
+}
+
+/*VIDEO*/
+
+#video>iframe {
+    width: 600px;
+    height: 337.5px;
+    float: left;
+    margin-left: 372px;
+    margin-top: 4px;
+}
+
+/*COLUMNS*/
+
+.column {
+    float: left;
+    width: 32.7%;
+    background-color: #222222;
+    box-shadow: inset 0px 2px 10px black;
+    margin: 8px 4px 8px 4px;
+}
+
+.column h3 {
+    text-align: center;
+    font-weight: 600;
+}
+
+.column>p {
+    text-align: justify;
+    padding: 0 10px;
+}
+
+/*MAP*/
+
+#map>iframe {
+    width: 49%;
+    float: left;
+    margin-left: 8px;
+    margin-bottom: 8px;
+}
+
+section {
+    width: 49%;
+    height: 450px;
+    float: right;
+    background-color: #222222;
+    text-align: center;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
